@@ -98,6 +98,7 @@ Node* buildGraph1()
 #define FOUND (0)
 #define DEAD_END (-1)
 
+// recurses through the graph and outputs the path in reverse order.
 int findPath(Node* node, int endingNode)
 {
     int result = DEAD_END;
